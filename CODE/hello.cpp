@@ -1,8 +1,10 @@
-// Your First C++ Program
-
 #include <iostream>
-
+#include<math.h>
+using namespace std;
 int main() {
-    std::cout << "Hello World!";
-    return 0;
+    int x,y;
+    x = 10;
+    y = 12;
+    
+    cout << (x % y);
 }
